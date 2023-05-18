@@ -1,7 +1,8 @@
 import "./home.css"
 
+
 function home() {
-  const title = "home const";
+  const title = "home const"
 
   return (
     <div classeName="App">
@@ -10,4 +11,4 @@ function home() {
   )
 }
 
-export default home;
+export default home
