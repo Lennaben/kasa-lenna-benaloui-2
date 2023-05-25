@@ -1,6 +1,6 @@
-import "./home.css"
+// import "./home.css"
 
-function header() {
+function Header() {
   return (
     <header classeName="App">
       <h1>{"je suis le header"}</h1>
@@ -8,4 +8,4 @@ function header() {
   )
 }
 
-export default header;
+export default Header
