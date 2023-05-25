@@ -1,14 +1,15 @@
-import "./home.css"
+import "./hom"
 
 
 function home() {
-  const title = "home const"
-
+ 
   return (
     <div classeName="App">
-      <h1>{title}</h1>
+      <h1>home</h1>
     </div>
   )
 }
 
-export default home
+export default home;
+
+// home css est pas detecter je ne comprend pas 
