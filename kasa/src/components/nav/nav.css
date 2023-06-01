@@ -1,0 +1,31 @@
+.navContainer {
+  /* background-color: cyan; */
+  max-width: 1240px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.logo {
+  height: 62px;
+}
+
+.navLinks {
+  display: flex;
+  column-gap: 57px;
+}
+
+.navLi {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color:#FF6060;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}

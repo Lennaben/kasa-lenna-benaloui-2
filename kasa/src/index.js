@@ -4,24 +4,20 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./index.css"
 import App from "./App"
 import Home from "./views/home/home"
-import Header from "./components/header/header"
-// import reportWebVitals from './reportWebVitals';
+import Nav from "./components/nav/nav"
+import Footer from "./components/footer/footer"
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Header />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/app" element={<App />} />
         <Route path="*" element={<App />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>
 )
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
