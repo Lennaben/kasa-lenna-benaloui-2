@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react"
+import imgBanner from "../../assets/banner-image.svg"
 
 const Banner = () => {
   return (
-    <div>
-        <div>
-            
+    <div className="container-banner">
+      <div className="banner">
+        <div className="backgruond-banner">
+          <img src={imgBanner} alt="" />
         </div>
-
-        <img src="" alt="" />
-
+      </div>
     </div>
   )
 }
