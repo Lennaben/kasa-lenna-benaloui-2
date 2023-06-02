@@ -1,0 +1,20 @@
+.container-cards {
+    background-color: rgb(255, 255, 255);
+    /* max-width: 1240px; */
+    width: 100%;
+}
+
+.cards {
+    background-color: saddlebrown;
+    display: flex;
+    flex-wrap:wrap ;
+    
+    flex-direction: column; 
+}
+
+.img-cards {
+  background-color: darkblue;
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+}
