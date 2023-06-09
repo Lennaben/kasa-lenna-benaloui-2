@@ -1,5 +1,5 @@
 .container-cards {
-  background-color: rgb(30, 219, 61);
+
   max-width: 1240px;
   display: flex;
   flex-wrap: wrap;
@@ -10,10 +10,10 @@
 }
 
 .cards {
-  max-width: 1240px;
+  
   width: 100%;
-  background-color: saddlebrown;
-  width: calc(33.33% - 10px);
+
+
 
   /* display: flex;
   justify-content: center;
@@ -25,6 +25,7 @@
   height: 340px;
   border-radius: 10px;
   background-color: firebrick;
+  object-fit: cover;
 }
 
 .text-overlay {
@@ -33,7 +34,10 @@
   left: 0;
   color: #fff;
   padding: 20px;
-  width: 500;
+  text-align: left;
+  width: 250px;
   font-size: 18px;
-  font-family: "monserat"
+  font-family: "monserat";
+  white-space: wrap;
+
 }

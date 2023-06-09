@@ -4,9 +4,24 @@
 .container-footer{
     background-color: black;
     width: 1440px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   
     height: 209px;
 }
 
 .logo-kasa{
     color: red;
+}
+
+.text-kasa{
+    color: white;
+    size: 24px;
+    font-family: "monserat";
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
