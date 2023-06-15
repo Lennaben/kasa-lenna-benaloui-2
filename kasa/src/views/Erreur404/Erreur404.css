@@ -1,1 +1,23 @@
+.txt-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.txt404 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 288px;
+  line-height: 142.6%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+  color:#FF6060;
+}
+
+.text {
+  margin-top: 550px;
+  color:#FF6060;
+}

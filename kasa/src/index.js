@@ -19,6 +19,8 @@ root.render(
         <Route path="/app" element={<App />} />
         <Route path="*" element={<Erreur404 />} />
         <Route path="/about" element={<About />} />
+        
+   
       </Routes>
       <Footer />
     </BrowserRouter>

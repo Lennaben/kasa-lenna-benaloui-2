@@ -1,6 +1,4 @@
 .navContainer {
-
-  
   max-width: 1240px;
   width: 100%;
   display: flex;
@@ -20,13 +18,19 @@
 
 .navLi {
   list-style: none;
+  border-bottom: 1px solid transparent; /* Ligne invisible par défaut */
+  transition: border-color 0.3s ease-in-out; /* Transition fluide */
 }
 
 .link {
   text-decoration: none;
-  color:#FF6060;
+  color: #ff6060;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
+}
+
+:hover {
+  border-color: red; /* Couleur de la ligne lors du survol */
 }
