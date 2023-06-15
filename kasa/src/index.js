@@ -9,6 +9,7 @@ import Footer from "./components/footer/footer"
 import Erreur404 from "./views/Erreur404/Erreur404"
 import About from "./views/About/About"
 
+
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <React.StrictMode>
@@ -19,6 +20,9 @@ root.render(
         <Route path="/app" element={<App />} />
         <Route path="*" element={<Erreur404 />} />
         <Route path="/about" element={<About />} />
+      
+        
+        
         
    
       </Routes>

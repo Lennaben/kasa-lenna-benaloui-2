@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
 }
 
 .txt404 {
@@ -10,14 +11,31 @@
   font-weight: 700;
   font-size: 288px;
   line-height: 142.6%;
-  position: absolute;
+ 
   left: 50%;
-  transform: translate(-50%, -50%);
+
   margin-top: 100px;
-  color:#FF6060;
+  color: #ff6060;
+  text-align: center;
 }
 
 .text {
-  margin-top: 550px;
-  color:#FF6060;
+
+  color: #ff6060;
+  font-family: "Montserrat";
+  font-size: 36px;
+  text-align: center;
+}
+/* comment mettre le footer en bas  */
+
+.text-2 {
+  margin: 140px 0 ;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ff6060;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
