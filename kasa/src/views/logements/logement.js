@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import * as  data from '../../data/logement.json'
 import Caroussel from '../../components/Caroussel/caroussel'
 import Infos from '../../components/Infos/Infos'
+import Tag from '../../components/tag/Tag'
 
 
 const Logement = () => {
@@ -21,6 +22,10 @@ const Logement = () => {
         <Caroussel item={item}/>
         {/* component Infos */}
         <Infos item={item}/>
+        {/* composant tag */}
+    
+
+
         {/* component Collaps */}
     </div>
   )
