@@ -1,7 +1,10 @@
 import React from "react"
+import "./collaps.css"
 
 const Collaps = () => {
-  return <div>Collaps Je suis bien la</div>
+  <div className="container-collaps">
+ 
+  </div>
 }
 
 export default Collaps

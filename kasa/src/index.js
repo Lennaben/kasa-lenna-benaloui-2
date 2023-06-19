@@ -2,12 +2,14 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./index.css"
-import App from "./App"
+// import App from "./App"
 import Home from "./views/home/home"
 import Nav from "./components/nav/nav"
 import Footer from "./components/footer/footer"
 import Erreur404 from "./views/Erreur404/Erreur404"
 import About from "./views/About/About"
+import Logement from "./views/logements/logement"
+
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"))
@@ -17,14 +19,9 @@ root.render(
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/app" element={<App />} />
+        <Route path="logement/:id" element={<Logement />} />
         <Route path="*" element={<Erreur404 />} />
         <Route path="/about" element={<About />} />
-      
-        
-        
-        
-   
       </Routes>
       <Footer />
     </BrowserRouter>
