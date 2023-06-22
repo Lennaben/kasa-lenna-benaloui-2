@@ -1,0 +1,16 @@
+.tags-container {
+  display: flex;
+  column-gap: 10px;
+}
+
+.tag-container {
+  background-color: #ff6060;
+  border-radius: 10px;
+}
+
+.tag {
+  padding-inline: 30px;
+  padding-block: 3px;
+  color: white;
+  font-weight: 500;
+}

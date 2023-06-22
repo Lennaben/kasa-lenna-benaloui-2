@@ -1,3 +1,23 @@
+.toggle {
+  color: red;
+}
+
+.btn-collaps {
+    
+  background-color: #ff6060;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  display: flex;
+
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+
 .container-collaps{
-    background-color: red;
+    /* display: flex; */
+    background-color: darkblue;
 }
