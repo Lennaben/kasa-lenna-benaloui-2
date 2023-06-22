@@ -11,6 +11,8 @@
   border-radius: 25px;
   margin-top: 40px;
   padding-bottom: 20px;
+
+  
 }
 
 .cards {
@@ -25,6 +27,9 @@
   height: 340px;
   border-radius: 10px;
   object-fit: cover;
+    
+ 
+ 
 }
 
 .text-overlay {
@@ -37,4 +42,12 @@
   font-size: 18px;
   font-family: "monserat";
   white-space: wrap;
+}
+
+
+.degrade-horizontal {
+
+background: linear-gradient(#e66465, #9198e5);
+
+
 }

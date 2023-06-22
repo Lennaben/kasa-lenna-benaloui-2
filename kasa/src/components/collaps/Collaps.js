@@ -1,6 +1,5 @@
 import { useState } from "react"
-import './Collaps.css'
-
+import "./Collaps.css"
 
 const Collaps = (props) => {
   const [open, setOPen] = useState(false)
@@ -11,11 +10,13 @@ const Collaps = (props) => {
 
   return (
     <div className="container-collaps">
-      <button className="btn-collaps" onClick={toggle}>{props.label}</button>
-    
+      <button className="btn-collaps" onClick={toggle}>
+        {props.label}
+      </button>
+
       {open && (
         <div className="toggle">
-          <h4>{props.children}</h4>
+          {props.children}
         </div>
       )}
     </div>
