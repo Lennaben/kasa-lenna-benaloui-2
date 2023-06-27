@@ -6,6 +6,8 @@ import Caroussel from "../../components/Caroussel/caroussel"
 // import Infos from "../../components/Infos/Infos"
 import Tags from "../../components/tags/Tags"
 import Collaps from "../../components/collaps/Collaps"
+import Host from "../../components/Host/Host"
+import Rating from "../../components/Rating/Rating"
 
 const Logement = () => {
   // on récupère l'id dans la barre d'adresse
@@ -24,6 +26,7 @@ const Logement = () => {
       <Caroussel item={item} />
       {/* component Infos */}
       <section className="infos-container">
+
         <div className="infos-generic">
           {/* titre */}
           <h1 className="infos-title">{item.title}</h1>
@@ -35,15 +38,13 @@ const Logement = () => {
         </div>
 
         <div className="infos-alt">
-        
-            
-          {/* </div> */}
-          {/* <div>{item.rating}</div> */}
-          {/* faire une boucle  */}
           {/* div avec nom + photo de profil */}
-          {/* <h2 className='nom'>{item.host}</h2> */}
-          {/* <Host host={item.host}/> */}.{/* vote */}
+          {/* </div> */}
+          <Host host={item.host} />.{/* <div>{item.rating}</div> */}
+         
+          <Rating rating={item.rating}/>
         </div>
+
       </section>
       {/* <Infos item={item} /> */}
       {/* composant tag */}

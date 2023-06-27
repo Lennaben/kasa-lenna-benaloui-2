@@ -1,15 +1,13 @@
 import React from "react"
+import "./Host.css"
 
 const Host = (props) => {
   const host = props.host
   return (
     <div className="hosts-container">
-      {/* pour chacun des tags on crée un tag */}
-      {host.map((host, index) => (
-        <div key={index} className="tag-container">
-          <p className="host">{host}</p>
-        </div>
-      ))}
+      <h2 className="nom">{host.name}</h2>
+      <img className="pp" src={host.picture} alt="host picture" />
+   
     </div>
   )
 }
