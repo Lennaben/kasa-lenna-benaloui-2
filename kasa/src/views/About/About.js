@@ -2,6 +2,7 @@ import React from "react"
 import imgAbout from "../../assets/banner-about.svg"
 import Collaps from "../../components/collaps/Collaps"
 
+
 const About = () => {
   return (
     <div className="container-banner">

@@ -1,7 +1,32 @@
-body{
-    /* background-color: aqua; */
+body {
+  /* background-color: aqua; */
 }
 
-h1{
-    color: rgb(216, 119, 112);
+h1 {
+  color: rgb(216, 119, 112);
+}
+
+.cardTest {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.747));
+}
+
+.container-cards {
+  margin-left: 30px; /* Ajoute de l'espace sur le côté gauche */
+  margin-right: 30px; /* Ajoute de l'espace sur le côté droit */
+  max-width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  background-color: #f7f7f7;
+  border-radius: 25px;
+  margin-top: 40px;
+  padding-bottom: 20px;
+  background: #f6f6f6;
+  padding: 50px;
+  gap: 20px;
+  /* background-image: linear-gradient(to bottom right, #919191, #0000ff); */
+  /* object-fit: cover; Assurez-vous que l'image remplit le conteneur */
 }
