@@ -9,6 +9,7 @@ import Collaps from "../../components/collaps/Collaps"
 import Host from "../../components/Host/Host"
 import Rating from "../../components/Rating/Rating"
 
+
 const Logement = () => {
   // on récupère l'id dans la barre d'adresse
   const { id } = useParams()
@@ -26,7 +27,6 @@ const Logement = () => {
       <Caroussel item={item} />
       {/* component Infos */}
       <section className="infos-container">
-
         <div className="infos-generic">
           {/* titre */}
           <h1 className="infos-title">{item.title}</h1>
@@ -41,10 +41,8 @@ const Logement = () => {
           {/* div avec nom + photo de profil */}
           {/* </div> */}
           <Host host={item.host} />.{/* <div>{item.rating}</div> */}
-         
-          <Rating rating={item.rating}/>
+          <Rating rating={item.rating} />
         </div>
-
       </section>
       {/* <Infos item={item} /> */}
       {/* composant tag */}
@@ -58,11 +56,10 @@ const Logement = () => {
 
         <Collaps label="Equipements">
           {/* Afficher les equiement de item */}
-          {/* <h1>introduction</h1>
-          <p>
-            The collapsible component puts long sections of the information
-            under a block enabling users to expand or collapse to access its
-            details.
+          <p>{item.equipements}</p>
+          {/* <p>
+            Climatisation Wi-Fi Cuisine Espace de travail Fer à repasser
+            Sèche-cheveux Cintres
           </p> */}
         </Collaps>
       </div>

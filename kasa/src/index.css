@@ -25,3 +25,22 @@ code {
   align-items: center;
   row-gap: 40px;
 }
+
+.infos-location {
+  color: #ff6060;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat";
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.nom {
+  color: FF6060;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: bolder;
+  width: 100px;
+  padding: 20px;
+}

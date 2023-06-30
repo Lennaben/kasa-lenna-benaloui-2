@@ -1,3 +1,5 @@
 .stars-groupe{
     display: flex;
+    column-gap: 10px;
+    margin-left: 25px;
 }

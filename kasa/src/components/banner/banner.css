@@ -1,10 +1,8 @@
 .container-banner {
-  max-width: 1240%;
-  width: 100%;
-  position: relative; /* Permet de positionner les éléments enfants */
-  display: inline-block; /* Assure que le conteneur occupe seulement l'espace nécessaire */
-  
-  
+ max-width: 1240%;
+    width: 100%;
+    position: relative;
+    display: inline-block;
 }
 
 .background {
@@ -24,16 +22,18 @@
   font-size: 40px; /* Taille du texte */
   z-index: 1; /* Empile le texte au-dessus de l'image */
   font-family: "Montserrat";
-   
+  font-weight: 500;
+    
 }
 
 .img-banner {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  left: 100px;
-  top: 163px;
-  border-radius: 25px;
-  opacity: 0.90;
+height: 100%;
+    width: 100%;
+    object-fit: cover;
+    left: 100px;
+    top: 163px;
+    border-radius: 25px;
+    opacity: 0.90;
+  
   
 }

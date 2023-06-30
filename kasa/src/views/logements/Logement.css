@@ -24,4 +24,6 @@
 .container{
     display: flex;
     width: 100%;
+    column-gap: 50px;
+    
 }

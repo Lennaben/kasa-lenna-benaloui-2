@@ -6,11 +6,17 @@
 .tag-container {
   background-color: #ff6060;
   border-radius: 10px;
+  margin-bottom: 20px;
+  
+  
 }
 
 .tag {
   padding-inline: 30px;
   padding-block: 3px;
   color: white;
-  font-weight: 500;
+  font-weight: bolder;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
 }

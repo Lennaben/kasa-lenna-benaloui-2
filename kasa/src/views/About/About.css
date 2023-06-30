@@ -1,23 +1,10 @@
-.container-banner {
-  max-width: 1240%;
-  width: 100%;
-  position: relative; /* Permet de positionner les éléments enfants */
-  display: inline-block; /* Assure que le conteneur occupe seulement l'espace nécessaire */
-   
+
+.container-collaps{
+  background-color: saddlebrown;
+  
+  
 }
 
-.background {
-  width: 100%;
-  height: 223px;
-  background-color: #000000;
-}
-
-
-.img-banner {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  border-radius: 25px;
-
+.collaps{
 
 }
