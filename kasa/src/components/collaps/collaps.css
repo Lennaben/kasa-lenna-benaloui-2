@@ -18,7 +18,7 @@
   width: 50%;
 }
 .large-width {
-  width: 80% !important; 
+  width: 80% !important;
 }
 
 .btn-collaps {
@@ -37,4 +37,15 @@
   padding-block: 15px;
   font-family: "Montserrat";
   font-weight: bold;
+}
+
+.arrow_close {
+  width: 100px;
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+  .container-footer {
+    width: 100%;
+  }
 }
