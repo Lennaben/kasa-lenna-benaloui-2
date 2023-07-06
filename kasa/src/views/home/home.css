@@ -17,20 +17,20 @@ h1 {
 }
 
 .container-cards {
-  margin-left: 30px; /* Ajoute de l'espace sur le côté gauche */
-  margin-right: 30px; /* Ajoute de l'espace sur le côté droit */
-  max-width: 1240px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  position: relative;
-  background-color: #f7f7f7;
-  border-radius: 25px;
-  margin-top: 40px;
-  padding-bottom: 20px;
-  background: #f6f6f6;
-  padding: 50px;
-  gap: 20px;
+ max-width: 1240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: #f7f7f7; */
+    border-radius: 25px;
+    margin-top: 40px;
+    /* padding-bottom: 20px; */
+    background: #f6f6f6;
+    padding: 50px;
+    column-gap: 60px;
+    width: 100%;
+    row-gap: 50px;
   /* background-image: linear-gradient(to bottom right, #919191, #0000ff); */
   /* object-fit: cover; Assurez-vous que l'image remplit le conteneur */
 }

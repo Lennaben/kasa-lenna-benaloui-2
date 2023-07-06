@@ -40,7 +40,7 @@ const Logement = () => {
         <div className="infos-alt">
           {/* div avec nom + photo de profil */}
           {/* </div> */}
-          <Host host={item.host} />.{/* <div>{item.rating}</div> */}
+          <Host host={item.host} />{/* <div>{item.rating}</div> */}
           <Rating rating={item.rating} />
         </div>
       </section>
@@ -56,7 +56,9 @@ const Logement = () => {
 
         <Collaps label="Equipements">
           {/* Afficher les equiement de item */}
-          <p>{item.equipements}</p>
+          {item.equipments.map((equipment)=>{
+            return <p>{equipment}</p>
+          })}
           {/* <p>
             Climatisation Wi-Fi Cuisine Espace de travail Fer à repasser
             Sèche-cheveux Cintres

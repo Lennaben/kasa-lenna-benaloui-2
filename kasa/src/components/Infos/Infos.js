@@ -28,7 +28,7 @@ const Infos = ({item}) => {
         {/* <h2 className='nom'>{item.host}</h2> */}
         {/* <Host host={item.host}/> */}
       
-        .
+        
         {/* vote */}
        </div>
     </section>

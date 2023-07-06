@@ -1,10 +1,16 @@
-
-.container-collaps{
-  background-color: saddlebrown;
-  
-  
+.about-container-banner {
+    max-width: 1240px;
+    width: 100%;
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.collaps{
-
+.group-container-collaps{
+    max-width: 1240px;
+    width: 100%;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
 }

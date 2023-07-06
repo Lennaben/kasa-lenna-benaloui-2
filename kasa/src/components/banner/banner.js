@@ -1,6 +1,7 @@
 import React from "react"
 import imgBanner from "../../assets/banner-image.svg"
 import "./banner.css"
+// import "./About.css"
 
 const Banner = () => {
   return (

@@ -9,16 +9,13 @@ const Collaps = (props) => {
   }
 
   return (
-    <div className="container-collaps">
+    <div className={`container-collaps ${props.about && "large-width"}`}>
+    
       <button className="btn-collaps" onClick={toggle}>
         {props.label}
       </button>
 
-      {open && (
-        <div className="toggle">
-          {props.children}
-        </div>
-      )}
+      {open && <div className="toggle">{props.children}</div>}
     </div>
   )
 }
