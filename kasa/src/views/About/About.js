@@ -3,7 +3,7 @@ import imgAbout from "../../assets/banner-about.svg"
 import Collaps from "../../components/collaps/Collaps"
 import "./About.css"
 
-const About = () => {
+const   About = () => {
   const valeurs = [
     {
       label: "Fiabilité",

@@ -34,3 +34,22 @@
 :hover {
   border-color: red; /* Couleur de la ligne lors du survol */
 }
+
+/* Mobile */
+@media (max-width: 576px) {
+  .navLinks {
+    column-gap: 26px;
+    margin-right: 20px;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  .logo{
+    margin-left: 20px;
+
+  }
+
+
+}

@@ -40,12 +40,18 @@
 }
 
 .arrow_close {
-  width: 100px;
+  right: 50%;
+
+   transform: rotate(180deg); /* Équivalent à rotateZ(45deg) */
+  
 }
 
 /* Mobile */
 @media (max-width: 576px) {
   .container-footer {
     width: 100%;
+   
   }
+
+  
 }

@@ -1,8 +1,8 @@
 .container-banner {
- max-width: 1240%;
-    width: 100%;
-    position: relative;
-    display: inline-block;
+  max-width: 1240%;
+  width: 100%;
+  position: relative;
+  display: inline-block;
 }
 
 .background {
@@ -10,7 +10,6 @@
   height: 223px;
   border-radius: 25px;
   background-color: #000000;
-  
 }
 
 .texte {
@@ -23,17 +22,29 @@
   z-index: 1; /* Empile le texte au-dessus de l'image */
   font-family: "Montserrat";
   font-weight: 500;
-    
 }
 
 .img-banner {
-height: 100%;
-    width: 100%;
-    object-fit: cover;
-    left: 100px;
-    top: 163px;
-    border-radius: 25px;
-    opacity: 0.90;
-  
-  
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  left: 100px;
+  top: 163px;
+  border-radius: 25px;
+  opacity: 0.9;
+}
+
+@media (max-width: 576px) {
+  .img-banner {
+    width: 335px;    
+    border-radius: 10px;
+    height: 255px;
+    opacity: 0.9;
+  }
+
+  .background {
+    background-color: rgb(0, 0, 0);
+    height: 255px;
+    width: 335px;
+  }
 }
