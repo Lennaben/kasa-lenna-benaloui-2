@@ -1,31 +1,37 @@
-.Introduction{
-    background-color: darkblue;
-    color: saddlebrown;
+.Introduction {
+  background-color: darkblue;
+  color: saddlebrown;
 }
 
-.h1-intro{
-    color: fuchsia;
+.h1-intro {
+  color: fuchsia;
 }
 
-.container-col{
-    background-color: red;
+.container-col {
+  background-color: red;
 }
 
-.label{
-    color: white;
-    font-size:300 ;
+.label {
+  color: white;
+  font-size: 300;
 }
 
-.infos-container{
-    max-width: 1240px;
-    display: flex;
-    justify-content: space-between;
+.infos-container {
+  max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.container{
-    max-width: 1240px;
-    display: flex;
-    width: 100%;
-    column-gap: 50px;
-    
+.container {
+  max-width: 1240px;
+  display: flex;
+  width: 100%;
+  column-gap: 50px;
+}
+
+@media (max-width: 576px){
+    .container{
+        
+    }
+
 }

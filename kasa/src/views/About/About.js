@@ -30,8 +30,8 @@ const   About = () => {
 
   return (
     <div className="about-container-banner">
-      <div className="background">
-        <img className="img-banner" src={imgAbout} alt="banner" />
+      <div className="background-about">
+        <img className="img-banner-about" src={imgAbout} alt="banner" />
       </div>
 
       <div className="group-container-collaps">
