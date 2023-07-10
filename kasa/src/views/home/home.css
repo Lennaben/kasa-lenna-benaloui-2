@@ -34,3 +34,11 @@ h1 {
   /* background-image: linear-gradient(to bottom right, #919191, #0000ff); */
   /* object-fit: cover; Assurez-vous que l'image remplit le conteneur */
 }
+
+@media (max-width: 576px){
+  .infos-title{
+    font-size: 18px;    
+    width: 37%;
+    margin-right: 20%;
+  }
+}

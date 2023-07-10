@@ -8,3 +8,10 @@
     height: 64px;
     border-radius: 32px;
 }
+
+@media (max-width: 576px){
+    .pp{
+        width: 32px;
+        height: 32px;
+    }
+}

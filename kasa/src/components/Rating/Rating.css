@@ -3,3 +3,9 @@
     column-gap: 10px;
     margin-left: 25px;
 }
+
+@media (max-width: 576px){
+    .stars-groupe{
+        
+    }
+}

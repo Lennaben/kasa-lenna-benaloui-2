@@ -41,10 +41,19 @@
   }
 
   .sliderArrows {
-    width: 24px;
+    
   }
 
   .arrow {
    
+  }
+
+  .slider-container{
+    align-items: start;
+    height: 30%;
+  }
+
+  .infos-container{
+  margin-left: 40%;
   }
 }

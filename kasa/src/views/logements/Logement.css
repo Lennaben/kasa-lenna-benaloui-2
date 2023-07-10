@@ -31,7 +31,14 @@
 
 @media (max-width: 576px){
     .container{
+      width: 50%;
+    margin-left: 36%;
+    display: block;
         
+    }
+
+    .infos-container{
+      display: block;
     }
 
 }
