@@ -51,7 +51,7 @@ const Logement = () => {
       <div className="container">
         <Collaps label="Descrpitions">
           {/* Afficher les description de item */}
-          <p>{item.description}</p>
+          <p className="text">{item.description}</p>
         </Collaps>
 
         <Collaps label="Equipements">

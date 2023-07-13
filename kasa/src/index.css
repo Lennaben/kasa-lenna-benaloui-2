@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 body {
@@ -12,7 +11,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 code {
@@ -36,11 +34,10 @@ code {
   font-size: 18px;
   margin-bottom: 20px;
   font-weight: bold;
-
 }
 
 .nom {
-  color: #FF6060;
+  color: #ff6060;
   font-family: "Montserrat";
   font-size: 18px;
   font-weight: bolder;
@@ -48,17 +45,19 @@ code {
   padding: 20px;
 }
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
   .nom {
     font-size: 12px;
-    
+    padding: 0;
+    width: 100%;
   }
 
-  .infos-alt{
+  .infos-alt {
     display: flex;
     flex-direction: row-reverse;
     margin-right: 60%;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    column-gap: 50px;
   }
-
 }
- 

@@ -29,10 +29,13 @@
   column-gap: 50px;
 }
 
+
 @media (max-width: 576px){
     .container{
       width: 50%;
-    margin-left: 36%;
+  
+    margin-left: 37%;
+
     display: block;
         
     }

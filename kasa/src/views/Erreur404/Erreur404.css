@@ -36,3 +36,21 @@
   justify-content: center;
   align-items: center;
 }
+
+
+@media (max-width: 576px){
+  .txt404{
+    font-size: 90px;
+    font-weight: bolder;
+    margin-bottom: 113%;
+
+  }
+
+  .text{
+    font-size: 30px;
+    color: #ff6060;
+        margin-bottom: 113%;
+ }
+
+  
+}
