@@ -18,7 +18,7 @@
   width: 50%;
 }
 .large-width {
-  width: 80% !important;
+  width: 100% !important;
 }
 
 .btn-collaps {
@@ -30,7 +30,7 @@
 
   border-radius: 10px;
   border: none;
-  display: flex;
+ justify-content: space-between;
   color: white;
   font-size: 18px;
   padding-inline: 10px;
@@ -48,14 +48,12 @@
 
 /* Mobile */
 @media (max-width: 576px) {
-  .container-footer {
-    width: 100%;
-   
-  }
+ 
 
   .btn-collaps{
     height: 30px;
-    width: 107%;
+    width: 100%;
+
     
   }
 

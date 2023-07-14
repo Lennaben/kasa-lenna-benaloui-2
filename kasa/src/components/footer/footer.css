@@ -1,27 +1,25 @@
+.container-footer {
+  background-color: black;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
 
-
-
-.container-footer{
-    background-color: black;
-    width: 1440px;
-    display: flex;
-    padding: 50px;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-   
-    height: 209px;
+  height: 209px;
 }
 
-.logo-kasa{
-    color: red;
+.logo-kasa {
+  color: red;
 }
 
-.text-kasa{
-    color: white;
-    size: 24px;
-    font-family: "Montserrat";
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.text-kasa {
+  color: white;
+  size: 24px;
+  font-family: "Montserrat";
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

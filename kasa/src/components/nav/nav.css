@@ -39,7 +39,7 @@
 @media (max-width: 576px) {
   .navLinks {
     column-gap: 26px;
-        margin-right: 50px;
+        margin-right: 20px;
    
   }
 
@@ -48,7 +48,7 @@
   }
 
   .logo{
-    margin-left: 50px;
+    margin-left: 20px;
         height: 45px;
 
   }
