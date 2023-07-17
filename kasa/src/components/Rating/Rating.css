@@ -5,7 +5,8 @@
 }
 
 @media (max-width: 576px){
-    .stars-groupe{
-        
+  
+    .full-star{
+        width: 20px;
     }
 }

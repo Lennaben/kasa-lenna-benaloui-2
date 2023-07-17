@@ -30,11 +30,11 @@ const Caroussel = ({ item }) => {
           <div className="sliderArrows">
             {/* flèche de gauche */}
             <div className="arrowLeftContainer arrow" onClick={previousImage}>
-              <img src="/images/avant.png" alt="left arrow" />
+              <img className="arrow-left" src="/images/avant.png" alt="left arrow" />
             </div>
             {/* flèche de droite */}
             <div className="arrowRightContainer arrow" onClick={nextImage}>
-              <img src="/images/apres.png" alt="right arrow" />
+              <img className="arrow-right" src="/images/apres.png" alt="right arrow" />
             </div>
           </div>
           <span className="counter">

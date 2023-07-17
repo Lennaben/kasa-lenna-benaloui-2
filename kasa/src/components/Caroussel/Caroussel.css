@@ -35,25 +35,21 @@
 }
 
 @media (max-width: 576px) {
-  .slider-image {
-    width: 335px;
-    height: 255px;
+  .arrow-left {
+    width: 24px;
+    display: flex;
+ 
   }
 
-  .sliderArrows {
-    
+  .arrow-right{
+    width: 24px;
   }
 
-  .arrow {
-   
-  }
 
-  .slider-container{
+
+  .slider-container {
     align-items: start;
-    height: 30%;
-  }
-
-  .infos-container{
-  margin-left: 37%;
+    height: 100%;
+    width: 100%;
   }
 }

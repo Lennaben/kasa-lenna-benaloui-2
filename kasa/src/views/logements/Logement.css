@@ -29,19 +29,21 @@
   column-gap: 50px;
 }
 
-
-@media (max-width: 576px){
-    .container{
-      width: 50%;
-  
-    margin-left: 37%;
+@media (max-width: 576px) {
+  .container {
+    width: 200%;
 
     display: block;
-        
-    }
+  }
 
-    .infos-container{
-      display: block;
-    }
+  .infos-container {
+    display: block;
+  }
+
+  .logement-page{
+        width: 90%;
+
+  }
+
 
 }

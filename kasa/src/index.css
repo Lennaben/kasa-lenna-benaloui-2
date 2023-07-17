@@ -55,9 +55,17 @@ code {
   .infos-alt {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 60%;
     padding-top: 24px;
     padding-bottom: 20px;
-    column-gap: 50px;
+    
+  }
+
+  .infos-generic{
+
+
+  }
+
+  .root{
+    width: 90%;
   }
 }

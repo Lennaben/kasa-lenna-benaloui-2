@@ -5,8 +5,8 @@ const Rating = (props) => {
   const rating = props.rating
   console.log(rating)
 
-  const fullstar = <img src="/images/fullstar.svg" alt="" />
-  const emptystar = <img src="/images/emptystar.svg" alt="" />
+  const fullstar = <img className="full-star" src="/images/fullstar.svg" alt="" />
+  const emptystar = <img  className="empty-star" src="/images/emptystar.svg" alt="" />
 
   const stars = []
 
