@@ -37,21 +37,21 @@
 
 /* Mobile */
 @media (max-width: 576px) {
+  .navContainer {
+    width: 90%;
+  }
+
   .navLinks {
     column-gap: 26px;
-        margin-right: 20px;
-   
+    /* margin-right: 40px; */
   }
 
   .link {
     font-size: 12px;
   }
 
-  .logo{
-    margin-left: 20px;
-        height: 45px;
-
+  .logo {
+    /* margin-left: 40px; */
+    height: 45px;
   }
-
-
 }

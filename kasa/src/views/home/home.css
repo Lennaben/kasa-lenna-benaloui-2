@@ -36,9 +36,22 @@ h1 {
 }
 
 @media (max-width: 576px){
+
+  .App {
+    width: 90%;
+  }
+
+  .container-cards { 
+    padding: inherit;
+  }
   .infos-title{
     font-size: 18px;    
     width: 37%;
     margin-right: 20%;
+  }
+
+
+  .container-cards{
+  background-color: white;
   }
 }

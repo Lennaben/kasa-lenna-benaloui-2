@@ -22,7 +22,7 @@ const Logement = () => {
   // console.log(item.equipments[1])
 
   return (
-    <div>
+    <div className="logement-page">
       {/* component Caroussel */}
       <Caroussel item={item} />
       {/* component Infos */}
