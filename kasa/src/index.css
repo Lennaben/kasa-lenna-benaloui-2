@@ -26,15 +26,6 @@ code {
   row-gap: 40px;
 }
 
-.infos-location {
-  color: #ff6060;
-  display: flex;
-  flex-wrap: wrap;
-  font-family: "Montserrat";
-  font-size: 18px;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
 
 .nom {
   color: #ff6060;
@@ -49,7 +40,8 @@ code {
   .nom {
     font-size: 12px;
     padding: 0;
-    width: 100%;
+    width: 80px;
+    text-align: right;
   }
 
   .infos-alt {
@@ -57,6 +49,7 @@ code {
     flex-direction: row-reverse;
     padding-top: 24px;
     padding-bottom: 20px;
+    justify-content: space-between;
     
   }
 

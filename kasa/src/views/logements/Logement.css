@@ -29,21 +29,35 @@
   column-gap: 50px;
 }
 
+.infos-location {
+  color: #ff6060;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Montserrat";
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   .container {
-    width: 200%;
-
-    display: block;
+    width: 100%;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
   }
 
   .infos-container {
     display: block;
   }
 
-  .logement-page{
-        width: 90%;
-
+  .logement-page {
+    width: 90%;
   }
 
-
+  .infos-location {
+    font-size: 14px;
+    font-style: normal;
+    line-height: 142.6%; /* 19.964px */
+  }
 }

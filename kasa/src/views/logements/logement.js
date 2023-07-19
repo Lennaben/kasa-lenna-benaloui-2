@@ -40,7 +40,8 @@ const Logement = () => {
         <div className="infos-alt">
           {/* div avec nom + photo de profil */}
           {/* </div> */}
-          <Host host={item.host} />{/* <div>{item.rating}</div> */}
+          <Host host={item.host} />
+          {/* <div>{item.rating}</div> */}
           <Rating rating={item.rating} />
         </div>
       </section>
@@ -51,12 +52,12 @@ const Logement = () => {
       <div className="container">
         <Collaps label="Descrpitions">
           {/* Afficher les description de item */}
-          <p className="text">{item.description}</p>
+          <p className="toggle">{item.description}</p>
         </Collaps>
 
         <Collaps label="Equipements">
           {/* Afficher les equiement de item */}
-          {item.equipments.map((equipment)=>{
+          {item.equipments.map((equipment) => {
             return <p>{equipment}</p>
           })}
           {/* <p>

@@ -5,6 +5,10 @@
 }
 
 @media (max-width: 576px){
+    .stars-groupe{
+        align-items: center;
+        margin-left: inherit;
+    }
   
     .full-star{
         width: 20px;

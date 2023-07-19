@@ -17,41 +17,38 @@ h1 {
 }
 
 .container-cards {
- max-width: 1240px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-    /* background-color: #f7f7f7; */
-    border-radius: 25px;
-    margin-top: 40px;
-    /* padding-bottom: 20px; */
-    background: #f6f6f6;
-    padding: 50px;
-    column-gap: 60px;
-    width: 100%;
-    row-gap: 50px;
+  max-width: 1240px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  /* background-color: #f7f7f7; */
+  border-radius: 25px;
+  margin-top: 40px;
+  /* padding-bottom: 20px; */
+  background: #f6f6f6;
+  padding: 50px;
+  column-gap: 60px;
+  width: 100%;
+  row-gap: 50px;
   /* background-image: linear-gradient(to bottom right, #919191, #0000ff); */
   /* object-fit: cover; Assurez-vous que l'image remplit le conteneur */
 }
 
-@media (max-width: 576px){
-
+@media (max-width: 576px) {
   .App {
     width: 90%;
   }
 
-  .container-cards { 
+  .container-cards {
+    background-color: white;
     padding: inherit;
   }
-  .infos-title{
-    font-size: 18px;    
 
-    margin-right: 20%;
-  }
-
-
-  .container-cards{
-  background-color: white;
+  .infos-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 142.6%; /* 25.668px */
   }
 }
