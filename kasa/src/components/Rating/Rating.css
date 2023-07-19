@@ -1,16 +1,20 @@
-.stars-groupe{
-    display: flex;
-    column-gap: 10px;
-    margin-left: 25px;
+.stars-groupe {
+  display: flex;
+  column-gap: 10px;
+  margin-left: 25px;
 }
 
-@media (max-width: 576px){
-    .stars-groupe{
-        align-items: center;
-        margin-left: inherit;
-    }
-  
-    .full-star{
-        width: 20px;
-    }
+@media (max-width: 576px) {
+  .stars-groupe {
+    align-items: center;
+    margin-left: inherit;
+  }
+
+  .full-star {
+    width: 20px;
+  }
+
+  .empty-star {
+    width: 20px;
+  }
 }
