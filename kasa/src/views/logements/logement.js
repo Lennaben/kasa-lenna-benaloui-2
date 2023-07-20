@@ -8,13 +8,17 @@ import Tags from "../../components/tags/Tags"
 import Collaps from "../../components/collaps/Collaps"
 import Host from "../../components/Host/Host"
 import Rating from "../../components/Rating/Rating"
-
+import Erreur404 from "../Erreur404/Erreur404"
 
 const Logement = () => {
   // on récupère l'id dans la barre d'adresse
   const { id } = useParams()
   // on récupère les données du logement avec l'id qu'on a passé en paramètre d'url
   const item = data.default.find((data) => data.id === id)
+
+  if (!item) {
+    return <Erreur404 />
+  }
 
   console.log(item)
   console.log(item.description)
