@@ -4,7 +4,7 @@ import ImgArrow from "../../assets/arrow.svg"
 
 const Collaps = (props) => {
   const [open, setOPen] = useState(false)
-
+// ouverture du collaps 
   const toggle = () => {
     setOPen(!open)
   }
