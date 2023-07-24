@@ -2,8 +2,10 @@ import { useState } from "react"
 import "./Collaps.css"
 import ImgArrow from "../../assets/arrow.svg"
 
+// le collapse c'est un composant qui sert a afficher des données dans un container qui s'ouvre et se ferme
 const Collaps = (props) => {
   const [open, setOPen] = useState(false)
+  // permet de remplacer les composant class = cycle de vie 
 // ouverture du collaps 
   const toggle = () => {
     setOPen(!open)
